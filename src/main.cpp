@@ -55,10 +55,9 @@ void displayMenu() {
   lcd.setCursor(1,0);
   lcd.print("O");     // O
   lcd.write(byte(0)); // Б
-  lcd.print("EPIT");    // ІТ
+  lcd.print("EPIT");    // EPІТ
   lcd.write(byte(4)); // Ь
-  lcd.print(" ");
-  lcd.print("PE");     
+  lcd.print(" PE");     
   lcd.write(byte(1)); // Ж
   lcd.write(byte(3)); // И
   lcd.print("M:");
