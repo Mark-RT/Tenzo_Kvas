@@ -116,9 +116,9 @@ void loop() {
     lcd.clear();
     lcd.setCursor(3,0);
     lcd.print("TAPA - OK!");
-    delay(500);
+    delay(600);
     (state == ST_MENU ? displayMenu() : displayHeader());
-    delay(500);
+    delay(50);
   }
 
   if (state == ST_MENU) {
